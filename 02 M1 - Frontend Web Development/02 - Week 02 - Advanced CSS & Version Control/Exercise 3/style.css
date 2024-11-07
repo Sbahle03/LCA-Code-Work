@@ -1,0 +1,86 @@
+
+body{
+    background-color: aliceblue;
+}
+.nav{
+    border: 3px solid  #000000;
+}
+.nav-link{
+    transition: all 0.3s;
+}
+.nav-link:hover{
+    border-bottom:  3px solid pink;
+}
+
+
+
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 13px;
+    margin: 13px;
+    box-shadow: #000000;
+    width: 300px !important;
+    height: 300px !important;
+    font-size: medium;
+    margin-bottom: 40px;
+}
+
+.anime-background{
+    max-height: 100% !important;
+    max-width:100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* color: white; */
+    animation: gradientBackground 10s infinite alternate !important;
+    background-size: 200% 200% !important;
+   
+}
+
+@keyframes gradientBackground {
+    0% {
+        background: linear-gradient(135deg, #d67f82, #f3d0c7);
+    }
+    50% {
+        background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    }
+    100% {
+        background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    }
+}
+
+.anime-background h1 {
+    font-size: 3rem;
+}
+
+.anime-background p {
+    font-size: 1.5rem;
+}
+
+.button{
+    border: 1px solid black;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    color: rgb(100, 96, 96)
+}
+.btn {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    color: rgb(100, 96, 96);
+
+}
+button:hover{
+    background-color: antiquewhite;
+}
+
+.spinner-border text-primary{
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor:pointer;
+} 

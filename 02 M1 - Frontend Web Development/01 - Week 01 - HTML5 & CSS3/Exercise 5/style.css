@@ -1,0 +1,45 @@
+.nav {   
+    background-color: #333;  
+}
+
+.h1 {
+    font-size: 24px;
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+.h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    
+    padding: 15px; 
+}
+
+.nav ul li {
+    margin-right: 20px; 
+}
+
+.nav ul a {
+    text-decoration: none; 
+    color: white; 
+    padding: 8px 16px; 
+    display: block; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav ul a:hover {
+    background-color: #a79a9a; 
+    color: #3498db; 
+    text-decoration: underline; 
+    border-radius: 4px; 
+}

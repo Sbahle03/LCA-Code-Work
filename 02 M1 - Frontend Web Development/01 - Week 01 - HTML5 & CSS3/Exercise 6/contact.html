@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Table</title>
+ <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <header>
+    <style>
+        body{
+            font-family: "Nunito Sans", sans-serif;
+        }
+        /* Internal sytling for forms */
+       
+        form{
+            border: 1px solid black ;
+            padding: 12px;
+            border-radius: 4px;
+            max-width: 40%;
+            height: 300px;
+            margin: 0 auto;
+        }
+        input, select{
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="radio" i]{
+            display: inline;
+        }
+        label[name="Rate_Content"],
+        label[name="Extra_Comments"],
+        label[name="Rate_Lecturer"]{
+            display: block;
+        }
+        .lecturer-label {
+            display: block;
+
+        }
+        #label-label{
+            display: block;
+
+        }
+        button{
+         background-color: #2196F3; /* Background color */
+         color: white; /* Text color */
+         margin-top: 10px; /* Top margin */
+        }
+         
+
+
+        .label-label{
+           display: block;
+           margin-bottom: 8px;
+        }
+        
+        
+    </style>
+
+    </header>
+    <form>
+      <!-- Forms Starts -->
+       <!-- Creating a form with name , email, phone , subject dropdown and message area and sumit button -->
+         <!-- Create an name label -->
+    <label> Enter your name : </label>
+    <input type="text" name="name" placeholder="Mary Black" >
+    <!-- Create a email label with input -->
+    <label> Enter your email address :</label>
+    <input type="email" name=" email"  placeholder="maryblack@gmail.com">
+    <!-- Create a phpne label -->
+     <label> Enter your contact number</label>
+     <input type="number" name="number"  placeholder="071 234 5678">
+     <!-- Create a subject dropdown -->
+     <label>Subject</label>
+     <select name="subject">
+        <option value="Inquiry-Time-Schedule">Inquiry</option>
+        <option value="Contact-the-support -serivce">Contact-the-support</option>
+     </select>
+     <!-- Create a messaging area -->
+     <label> Message Area</label>
+     <input type="text" name="message">
+     <button claas="submit-button" type="submit"> Submit </button>
+
+    </form>
+
+<table>
+<thead>
+    <!-- Creating the head of the table! -->
+    <tr>
+     <th>Day</th>
+     <th>Client</th>
+     <th>Time</th>
+    </tr>
+    <!-- This comment is for creating table  -->
+        <tr>
+            <td>Monday</td>
+            <td>Aphiwe Dlomo</td>
+            <td> 09:30-10:30</td>
+            
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Mrs Shela</td>
+            <td>14:00 -15:00</td>
+            
+        </tr>
+        <tr>
+            <td>Wednesady</td>
+            <td> Sia</td>
+            <td> 15: 35 -16:45</td>
+            
+        </tr>
+        <tr>
+            <td>Thursady</td>
+            <td>Simphiwe</td>
+            <td>08:30</td>
+            
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Gal Madiba</td>
+            <td>09:00-10:30</td>
+            
+        </tr>
+    </tr>
+</thead>
+</table>
+</body>
+</html>

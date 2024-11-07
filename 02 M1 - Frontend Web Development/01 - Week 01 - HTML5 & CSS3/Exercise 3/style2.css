@@ -1,0 +1,31 @@
+table  {
+    width: 300px;
+    height: 100px;
+    margin-top: 10px
+    
+    
+        
+  }
+tr{
+    width: 300ppx;
+   height: 50px;
+}
+th{
+    width: 700px;
+}
+
+th {
+    text-align: center;
+}
+tr{
+    text-align: left;
+}
+td{
+    text-align: right;
+}
+
+table , th ,td ,tr {
+        border: 2px solid black;
+        border-collapse: collapse;
+       padding: 7px;
+      }

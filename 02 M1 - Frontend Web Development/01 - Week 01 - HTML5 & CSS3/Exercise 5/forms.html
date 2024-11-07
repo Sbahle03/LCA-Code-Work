@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-4 </title>
+    <!-- Import a google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            font-family: "Nunito Sans", sans-serif;
+        }
+        /* Internal sytling for forms */
+       
+        form{
+            border: 5px solid black ;
+            padding: 30px;
+            border-radius: 5px;
+            max-width: 400px;
+            max-height: 700px;
+            margin: 0 auto;
+        }
+        input, select{
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="radio" i]{
+            display: inline;
+        }
+        label[name="Rate_Content"],
+        label[name="Extra_Comments"],
+        label[name="Rate_Lecturer"]{
+            display: block;
+        }
+        .lecturer-label {
+            display: block;
+
+        }
+        #label-label{
+            display: block;
+
+        }
+        .send-button{
+            background-color: black;
+            color: white;
+            margin-top: 10px;
+        }
+    
+    </style>
+    
+
+    <h2> Exercise 4 - Ceating Forms For users</h2>
+
+    <!-- Start of my Form -->
+
+     <!-- Create a form for a user, or student at LCA , 
+     it must have the have, First Name , Last Name, Gender , Email, Date of birth -->
+</head>
+<body>
+    <form action="https://formspree.io/f/xpwzpzrd"  method="post">
+        <!-- The user enters they first name -->
+        <label>Enter your First Name :</label>
+        <input type="text" name="First_Name"  placeholder=" Mary">
+
+        <!-- The user enters they last name -->
+        <label> Enter your Last Name :</label>
+        <input type="text" name="Last__Name" placeholder="Black">
+
+        <!-- Ask the use rthy gender or what they choose to indentify as ! -->
+        <label> What do you identify as : </label>
+        <select  name="Gender">
+            <option value=" Female"> Female</option>
+            <option value="Male">Male</option>
+            <option value="Non-Binary"> Non-Binary</option>
+
+        </select>
+
+     <!-- Ask the  user they date of birth ! -->
+      <label> Enter the month of birth</label>
+     <input type="date" name="Date of Birth">
+
+    <!-- Ask the user they email address -->
+     <label> Enter your email address : </label>
+     <input type="email" name="email" placeholder="maryblack@gmail.com">
+     <button type="send"> Send </button>
+     </form>
+
+     <form action="http://httpbin.org/get" method="get">
+        <label> Search </label>
+        <input type="search" name="search" >
+
+     </form> 
+     
+     
+</body>
+</html>

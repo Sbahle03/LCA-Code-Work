@@ -1,0 +1,63 @@
+/* Creating a 4 column layout */
+
+body{
+    margin: 0;
+    font-family: "Raleway", serif;
+    font-size: large;
+}
+.title{
+    text-align: center;
+    
+}
+
+.cards{
+    width: 700x;
+    height: 400px;
+    margin:0 auto;
+    display:  grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-size: medium;
+
+ 
+}
+
+
+.cards img {
+    width: 65%; /* Makes the image take the full width of the card */
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures the image fits nicely without stretching */
+    max-width: 100%; /* Prevents the image from overflowing */
+}
+.buttons{
+    background-color: rgb(100, 100, 178);
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-size: medium;
+    font-weight: 400px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card__content{
+    font-size: 0.9em;
+    background-color: rgb(244, 236, 236);
+    padding: 15px;
+
+}
+
+.card__content>p:first-of-type{
+    margin-top: 0;
+
+}
+.card__content>p:last-of-type{
+    margin-bottom: 0;
+}
+.buttons:hover{
+    text-decoration: underline;
+    background-color: blue;
+
+}
+
