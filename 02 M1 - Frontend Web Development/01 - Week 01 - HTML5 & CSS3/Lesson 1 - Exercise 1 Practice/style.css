@@ -1,0 +1,19 @@
+/* Basic Reset */
+*  { margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    
+}
+/* Genereal Body Styling  */
+body {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 1.6;
+    color :white;
+    background-size: 1800px;
+    background-color: rgb(40, 147, 144);
+    background-image: url(image/dwayne-joe-Tyd1m-erJWY-unsplash\ \(1\).jpg);
+    padding:20px;
+
+}
